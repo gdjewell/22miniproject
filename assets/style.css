@@ -83,7 +83,13 @@ div label {
   height:50px;
   display:block;
   margin: 10px auto;
+  border-radius:15px;
 }
+
+.input-field[placeholder] {
+  text-align:center;
+}
+
 div #submit-button {
   display:block;
   margin: 15px auto;
@@ -93,6 +99,7 @@ div #submit-button {
   font-weight:bold;
   font-size:1.3em;
   color:white;
+  border-radius:20px;
 }
 
 /* Footer */
